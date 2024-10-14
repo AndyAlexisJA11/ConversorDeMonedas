@@ -1,4 +1,4 @@
-<h1>Conversor de Monedas Challenge 🤑 💰  </h1>
+<h1 align="center">Conversor de Monedas Challenge 🤑 💰  </h1>
 <h2>Descripción 📝</h2> 
 <p> Este proyecto es un conversor de monedas desarrollado en Java que utiliza una API externa para otener las tasas de cambio actuales entre varias divisas.
 Proporciona una interfaz simple para que los usuarios elijan entre las 10 opciones que hay y ingresar el monto que desean convertir</p>
@@ -9,7 +9,7 @@ Proporciona una interfaz simple para que los usuarios elijan entre las 10 opcion
   <li>Gson</li>
   <li>Git</li>
 </ul>
-<h2>Desarrollado por: 👨‍💻</h2>
+<h2  align="center">Desarrollado por: 👨‍💻</h2>
 <p>Andy Alexis Jimenez Arana 💻</p>
 <h2> Instalacion 👨‍🔧 </h2>
 <ol>
