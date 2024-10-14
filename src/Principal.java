@@ -7,7 +7,7 @@ public class Principal {
         ConvertirMoneda convertir = new ConvertirMoneda();
 
         int opcion = 0;
-        while (opcion != 7) {
+        while (opcion != 10) {
             System.out.println("""
                     *****************************************
                     Bienvenidos al conversor de monedas
@@ -18,7 +18,10 @@ public class Principal {
                     4. Real brasileño a dolar
                     5. Dolar a peso colombiano
                     6. Peso colombiano a dolar
-                    7. Salir""");
+                    7. Dollar australiano a dolar
+                    8. Dolar barbados a peso argenito
+                    9. Chinese Renbinbi a peso chileno
+                    10. Salir""");
             opcion = lectura.nextInt();
 
             if (opcion >= 1 && opcion <= 6) {
@@ -51,6 +54,16 @@ public class Principal {
                         base = "COP";
                         destino = "USD";
                         break;
+                    case 7:
+                        base = "AUD";
+                        destino = "USD";
+                        break;
+                    case 8:
+                        destino = "BBD";
+                        base = "ARS";
+                    case 9:
+                        destino = "CNY";
+                        base = "CLP";
                 }
                 try {
                     Moneda moneda = busqueda.busquedaMoneda(base);
